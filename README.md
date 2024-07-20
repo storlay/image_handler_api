@@ -1,4 +1,4 @@
-<h1 align="center">API:Сервис обработки изображений 🎇</h1>
+<h1 align="center">API: Сервис обработки изображений 🎇</h1>
 
 <div align="center">
 
