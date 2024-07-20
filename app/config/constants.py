@@ -1,0 +1,8 @@
+IMAGE_WIDTH = 200
+IMAGE_HEIGHT = 200
+IMAGE_QUALITY = 100
+
+WATERMARK_TRANSPARENCY = 0.5
+
+ALLOWED_IMAGE_FILE_FORMATS = {"jpg", "jpeg", "gif", "png", "bmp"}
+ALLOWED_WATERMARK_FILE_FORMATS = {"jpg", "jpeg", "png", "bmp"}
