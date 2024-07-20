@@ -1,8 +1,13 @@
-from fastapi import HTTPException, status
+from fastapi import (
+    HTTPException,
+    UploadFile,
+    status,
+)
 
-from fastapi import UploadFile
-
-from app.config.constants import ALLOWED_IMAGE_FILE_FORMATS, ALLOWED_WATERMARK_FILE_FORMATS
+from app.config.constants import (
+    ALLOWED_IMAGE_FILE_FORMATS,
+    ALLOWED_WATERMARK_FILE_FORMATS,
+)
 
 
 def validate_image_file_format(file: UploadFile) -> None:

@@ -1,12 +1,21 @@
 from io import BytesIO
 
-from PIL import ImageSequence
-from PIL import Image
+from PIL import Image, ImageSequence
 from starlette.responses import StreamingResponse
 
-from app.image.schemas import SImage, SWatermark, OutputImageFormat
-from app.image.service import ImageService, WatermarkService
-from app.image.validators import validate_image_file_format, validate_watermark_file_format
+from app.image.schemas import (
+    OutputImageFormat,
+    SImage,
+    SWatermark,
+)
+from app.image.service import (
+    ImageService,
+    WatermarkService,
+)
+from app.image.validators import (
+    validate_image_file_format,
+    validate_watermark_file_format,
+)
 
 
 async def handler_image(

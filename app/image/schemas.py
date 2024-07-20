@@ -4,7 +4,10 @@ from typing import Optional
 from fastapi import Form, UploadFile
 from pydantic import BaseModel
 
-from app.config.constants import WATERMARK_TRANSPARENCY, IMAGE_QUALITY
+from app.config.constants import (
+    IMAGE_QUALITY,
+    WATERMARK_TRANSPARENCY
+)
 
 
 class WatermarkPosition(Enum):

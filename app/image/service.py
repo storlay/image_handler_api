@@ -1,7 +1,10 @@
 from io import BytesIO
 
-from PIL import Image, ImageEnhance
 from fastapi import UploadFile
+from PIL import (
+    Image,
+    ImageEnhance
+)
 
 
 class ImageService:

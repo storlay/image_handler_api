@@ -1,4 +1,8 @@
-from fastapi import FastAPI, Depends, Security
+from fastapi import (
+    Depends,
+    FastAPI,
+    Security,
+)
 
 from app.auth.security import get_api_key
 from app.image.handler import handler_image
